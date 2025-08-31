@@ -3,40 +3,89 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NikNaX | SRE Tools & Extensions</title>
+  <title>NikNaX | Open-source projects & tutorials</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
     <img src="assets/logo.png" alt="NikNaX Logo" class="logo" />
-    <h1>Tools, runbooks, and guides for the busy or missing SRE</h1>
-    <p>Helping SREs and startups run better, faster, and with less stress.</p>
-    <a href="#newsletter" class="cta-button">Join the Newsletter</a>
+    <h1>Open-source projects, tutorials, and guides</h1>
+    <p>Example repositories and how-tos for GitHub, Kubernetes, Go, and Python.</p>
+    <p class="muted">Hands-on examples, step-by-step tutorials, and GitHub Actions samples.</p>
+    <div class="header-cta">
+      <a href="https://github.com/jywebs/NikNax" class="cta-button" target="_blank" rel="noopener">View repo on GitHub</a>
+      <a href="#projects" class="secondary-button">Explore projects</a>
+    </div>
   </header>
 
   <main>
-    <section id="products">
-      <h2>Our Tools</h2>
-      <ul>
-        <li><a href="#">🛠 Gumroad Templates</a></li>
-        <li><a href="#">🤖 ChatGPT Extensions</a></li>
-        <li><a href="#">🎓 Skool Community</a></li>
+    <section id="projects">
+      <h2>Featured example projects</h2>
+      <ul class="project-list">
+        <li>
+          <h3>kube-playground</h3>
+          <p>Small Kubernetes lab with examples for Deployments, Services, and Helm charts.</p>
+          <a href="https://github.com/jywebs/kube-playground" target="_blank" rel="noopener">View on GitHub</a>
+        </li>
+        <li>
+          <h3>go-rest-example</h3>
+          <p>Minimal Go REST API with Dockerfile, CI, and Kubernetes manifest.</p>
+          <a href="https://github.com/jywebs/go-rest-example" target="_blank" rel="noopener">View on GitHub</a>
+        </li>
+        <li>
+          <h3>py-worker-example</h3>
+          <p>Python background worker example (Celery/RQ) with tests and deployment guide.</p>
+          <a href="https://github.com/jywebs/py-worker-example" target="_blank" rel="noopener">View on GitHub</a>
+        </li>
+        <li>
+          <h3>github-actions-samples</h3>
+          <p>Reusable GitHub Actions and workflows demonstrating CI/CD patterns.</p>
+          <a href="https://github.com/jywebs/github-actions-samples" target="_blank" rel="noopener">View on GitHub</a>
+        </li>
       </ul>
     </section>
 
+    <section id="tutorials">
+      <h2>Tutorials & Guides</h2>
+      <ul>
+        <li>
+          <strong>Using GitHub like a pro</strong> — branches, PR templates, CODEOWNERS, and recommended workflows.
+        </li>
+        <li>
+          <strong>Kubernetes tasks</strong> — how to debug pods, use port-forward, rollout restarts, and run local clusters.
+        </li>
+        <li>
+          <strong>Go & Python best practices</strong> — project layout, testing, linters, and deployment tips.
+        </li>
+      </ul>
+      <p>Find full step-by-step tutorials inside each example repository.</p>
+    </section>
+
+    <section id="get-started">
+      <h2>Get started</h2>
+      <ol>
+        <li>Browse a repo that matches your goal (Go, Python, or Kubernetes).</li>
+        <li>Read the repo README for setup and quickstart instructions.</li>
+        <li>Open an issue or submit a PR if you want improvements or new examples.</li>
+      </ol>
+      <p class="muted">Prefer a guided path? Star the repo and I'll publish curated walkthroughs soon.</p>
+    </section>
+
     <section id="newsletter">
-      <h2>Sign up for updates</h2>
-      <p>Get early access to tools, blog posts, and exclusive templates.</p>
-      <!-- Replace this with real Mailchimp embed -->
+      <h2>Stay informed</h2>
+      <p>Subscribe for new example releases and short walkthroughs.</p>
+      <!-- simple local form; replace with your mailing provider if desired -->
       <form>
         <input type="email" placeholder="you@example.com" required />
         <button type="submit">Subscribe</button>
       </form>
+      <p class="note">Or follow on <a href="https://github.com/jywebs" target="_blank" rel="noopener">GitHub</a> for immediate updates.</p>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 NikNaX. All rights reserved.</p>
+    <p>© 2025 NikNaX. Focused on open-source examples and tutorials.</p>
+    <p class="footer-links"><a href="https://github.com/jywebs">GitHub</a> · <a href="mailto:hello@niknax.example">Contact</a></p>
   </footer>
 </body>
 </html>
